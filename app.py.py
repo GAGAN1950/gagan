@@ -14,6 +14,13 @@ if a:
         st.chat_message("ai").write("i am gagan from ssmrv college and i have pursued bca with cybersecurity and cloud architecture")
     elif a.lower()=="thanks":
         st.chat_message("ai").write("no problem!")
-    
+    elif a.lower()=="what about you":
+        st.chat_message("ai").write("good")
+    elif a.lower()=="can i know where are you from":
+        st.chat_message("ai").write("i am from bangalore")
+    elif a.lower()=="how was the day":
+        st.chat_message("ai").write("good")
+    elif a.lower()=="which year are you studing in":
+        st.chat_message("ai").write("i am studing in the second year BCA")
     
 
