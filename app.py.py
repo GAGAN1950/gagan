@@ -22,5 +22,7 @@ if a:
         st.chat_message("ai").write("good")
     elif a.lower()=="which year are you studing in":
         st.chat_message("ai").write("i am studing in the second year BCA")
+    elif a.lower()=="which is your favourite movie":
+        st.chat_message("ai").write("my favourite movie is jana nayagan and jaati ratnalu")
     
 
